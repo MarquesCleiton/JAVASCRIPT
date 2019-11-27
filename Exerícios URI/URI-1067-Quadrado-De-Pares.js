@@ -6,6 +6,6 @@ do{
 
 for(i=1;i<=num;i++){
     if(i%2==0){
-        console.log(i+"*"+i+" = "+(i*i))
+        console.log(i+"^2 = "+(i*i))
     }
 }
