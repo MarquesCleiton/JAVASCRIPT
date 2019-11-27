@@ -15,7 +15,7 @@ for (i = 1; i <= num; i++) {
         
         htmlgerado += "<div class='row";
         if (l1==1) {
-            htmlgerado += "<div class='row cor1'";
+            htmlgerado += " cor1'";
         }else if (l1==2) {
             htmlgerado += " cor2'";
         }else if (l1==3){
