@@ -9,6 +9,7 @@ function tarefa(){
 }
 
 function check(checado, l){
+    document.getElementById("mensagem").value='';
     if(checado.checked){
         document.getElementById("l"+l).style.textDecoration = "line-through";
     }else{
