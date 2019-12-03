@@ -1,0 +1,34 @@
+#jogo{
+    justify-content: center;
+    width:603px;
+    height:600px;
+    border:solid 3px
+}
+ 
+.linha{
+
+    height:200px;
+    border-bottom:solid 1px;
+}
+ 
+.casa{
+    text-align: center;
+    font-size: 1000%;
+    width:200px;
+    height:100%;
+    border-right:solid 1px;
+    float:left;
+    background-color: rgb(34, 34, 34);;
+}
+#casa2{
+    background-color: aliceblue;
+}
+#casa4{
+    background-color: aliceblue;
+}
+#casa6{
+    background-color: aliceblue;
+}
+#casa8{
+    background-color: aliceblue;
+}

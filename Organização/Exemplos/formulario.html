@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulário</title>
+</head>
+<body>
+    <h1>formulário</h1>
+    <br>
+    <hr/>
+
+        seu email
+        <input type="email" id="email"/>
+        <br>
+        sua senha
+        <input type="password" id="password"/>
+            <button onclick="valida()">Conectar</button>
+
+    <div id="resultado">
+
+    </div>
+    <script>
+        function valida()
+        {
+        var email = document.getElementById("email").value;
+        var senha = document.getElementById("password").value;
+        console.log("email: "+email)
+        console.log("senha: "+senha)
+
+        if(email === "gen@genaration.org" && senha === "generation")
+        {
+            document.getElementById("resultado").innerHTML = "Conectado"
+        }
+        else
+        {
+            document.getElementById("resultado").innerHTML = "Usuário/Senha inválidos"
+        }
+
+        }
+        
+    </script>
+</body>
+</html>
