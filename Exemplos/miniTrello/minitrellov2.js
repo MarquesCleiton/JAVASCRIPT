@@ -38,7 +38,7 @@ function pegaItem(evt){
 
 function habilitaArrastar(evt){
     evt.preventDefault();
-    //console.log("Estou sobre um determinado ponto que vai receber a tarefa");
+    console.log("Estou sobre um determinado ponto que vai receber a tarefa");
 }
 
 function recebeItem(evt){
